@@ -147,7 +147,3 @@ def end_script():
 This code explanation should give you a comprehensive understanding of the script's structure and logic, as well as how it interacts with the various DeFi protocols to automate complex financial operations.
 ```
 
-### Key Points:
-- **Overview**: This section provides a high-level summary of the document.
-- **Key Functions and Logic**: Each function is broken down with its purpose, logic, and how it contributes to the overall process.
-- **Interactions with DeFi Protocols**: Highlights how the script communicates with the Uniswap and Aave protocols, ensuring seamless execution of financial operations.
