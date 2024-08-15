@@ -27,3 +27,20 @@ The following diagram illustrates the sequence of steps and interactions between
 ![Flowchart of DeFi Automation Script](Sampleimage/Image.png)
 
 This flowchart visually represents the process, showing how the script moves from one operation to the next, ensuring a smooth and efficient DeFi transaction flow.
+
+
+# Code Explanation
+
+## Overview
+
+This document provides a detailed explanation of the code used in the DeFi Automation Script. It highlights the key functions, the logic behind them, and how interactions with various DeFi protocols are managed.
+
+## Key Functions and Logic
+
+### 1. **USDC Approval**
+
+```python
+def approve_usdc(amount):
+    # Function to approve USDC for further transactions
+    usdc_contract.approve(spender, amount)
+
